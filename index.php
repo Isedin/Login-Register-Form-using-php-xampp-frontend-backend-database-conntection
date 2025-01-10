@@ -12,7 +12,7 @@
   </head>
   <body>
     <div class="container" id="signUp" style="display: none">
-      <h1 class="form-title">Register</h1>
+      <h1 class="form-title">Neues Konto erstellen</h1>
       <form method="post" action="register.php">
         <div class="input-group">
           <i class="fas fa-user"></i>
@@ -23,7 +23,7 @@
             placeholder="First Name"
             required
           />
-          <label for="fName">First Name</label>
+          <label for="fName">Vorname</label>
         </div>
         <div class="input-group">
           <i class="fas fa-user"></i>
@@ -34,7 +34,7 @@
             placeholder="Last Name"
             required
           />
-          <label for="lName">Last Name</label>
+          <label for="lName">Nachname</label>
         </div>
         <div class="input-group">
           <i class="fas fa-envelope"></i>
@@ -56,23 +56,23 @@
             placeholder="Password"
             required
           />
-          <label for="password">Password</label>
+          <label for="password">Passwort</label>
         </div>
-        <input type="submit" class="btn" value="Sign Up" name="signUp" />
+        <input type="submit" class="btn" value="Konto erstellen" name="signUp" />
       </form>
-      <p class="or">-----------------or-----------------</p>
+      <!-- <p class="or">-----------------or-----------------</p>
       <div class="icons">
         <i class="fab fa-google"></i>
         <i class="fab fa-facebook"></i>
-      </div>
+      </div> -->
       <div class="links">
-        <p>Allready have an account?</p>
-        <button id="signInButton">Sign In</button>
+        <p>Hast du schon ein Konto?</p>
+        <button id="signInButton">Anmelden</button>
       </div>
     </div>
 
     <div class="container" id="signIn">
-      <h1 class="form-title">Sign In</h1>
+      <h1 class="form-title">Anmeldung</h1>
       <form method="post" action="register.php">
         <div class="input-group">
           <i class="fas fa-envelope"></i>
@@ -94,21 +94,21 @@
             placeholder="Password"
             required
           />
-          <label for="password">Password</label>
+          <label for="password">Passwort</label>
         </div>
         <p class="recover">
-          <a href="#">Forgot Password?</a>
+          <a href="#">Passwort vergessen?</a>
         </p>
-        <input type="submit" class="btn" value="Sign In" name="signIn" />
+        <input type="submit" class="btn" value="Anmelden" name="signIn" />
       </form>
-      <p class="or">-----------------or-----------------</p>
+      <!-- <p class="or">-----------------oder-----------------</p>
       <div class="icons">
         <i class="fab fa-google"></i>
-        <i class="fab fa-facebook"></i>
-      </div>
+        <i class="fab fa-facebook"></i> -->
+      <!-- </div> -->
       <div class="links">
-        <p>Still don't have an account?</p>
-        <button id="signUpButton">Sign Up</button>
+        <p>Du hast noch keine Rechnung?</p>
+        <button id="signUpButton">Registrieren</button>
       </div>
     </div>
     <script src="script.js"></script>
