@@ -11,6 +11,17 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+  <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="login.php" class="active">Login</a></li>
+                <li><a href="register.php">Register</a></li>
+                <li><a href="contact.php">Kontakt</a></li>
+                <li><a href="about.php">Über Uns</a></li>
+            </ul>
+        </nav>
+    </header>
     <div class="container" id="signUp" style="display: none">
       <h1 class="form-title">Neues Konto erstellen</h1>
       <form method="post" action="register.php">
